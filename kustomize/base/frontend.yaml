@@ -61,6 +61,7 @@ spec:
               httpHeaders:
               - name: "Cookie"
                 value: "shop_session-id=x-liveness-probe"
+          imagePullPolicy: Always
           env:
           - name: PORT
             value: "8080"
