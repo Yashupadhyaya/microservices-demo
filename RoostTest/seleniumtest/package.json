@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "chromedriver": "^110.0.0",
+    "selenium-webdriver": "^4.8.0"
+  },
+  "name": "seleniumtest",
+  "version": "1.0.0",
+  "main": "example-test.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
