@@ -6,7 +6,7 @@ describe('Microservices Demo Frontend', () => {
 
   before(async () => {
     browser = await remote({
-      baseUrl: 'http://localhost:8080', // URL where the frontend is running
+      baseUrl: 'http://test-2.voter.18.144.89.58.nip.io/', // URL where the frontend is running
       capabilities: {
         browserName: 'chrome' // can be changed to other browsers if needed
       }
